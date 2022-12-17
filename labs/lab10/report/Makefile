@@ -8,7 +8,7 @@ PDF_OPTIONS =
 FORMAT_OPTIONS =
 
 FILTERS += -F pandoc-crossref
-PDF_ENGINE += --pdf-engine=lualatex --pdf-engine-opt=--shell-escape
+PDF_ENGINE += --pdf-engine=/usr/local/texlive/2022/bin/x86_64-linux/lualatex --pdf-engine-opt=--shell-escape
 OPTIONS += --number-sections
 BIB_OPTIONS = --citeproc
 
